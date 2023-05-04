@@ -3,42 +3,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header id="header">
       <!-- logo -->
-      <img src="assets/images/product-landing-page-logo.png" alt="logo" id="header-img">
+      <img
+        src="assets/images/product-landing-page-logo.png"
+        alt="logo"
+        id="header-img"
+      />
       <!-- menu -->
       <nav id="nav-bar">
-        
-        <a href="#features"class="nav-link">Features</a>
-        <a href="#how-it-works"class="nav-link">How it works</a>
-        <a href="#pricing"class="nav-link">Pricing</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How it works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
-
     </header>
     <div>
       <div>
         <!-- title -->
+        <h1>Handcrafted, home-made masterpieces</h1>
         <!-- form with email input feild and submit button -->
-        <form id="form">
-          <input id="email" placeholder="email">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input id="email" placeholder="email" />
+          <button id="submit">Submit</button>
         </form>
       </div>
       <!-- features with icons -->
+
       <div id="features">
-        
+        <div class="feature1">
+          <i class="fa fa-3x fa-fire"></i>
+          <h1>Premium Materials</h1>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+
+        <div class="feature2">
+          <i class="fa fa-3x fa-truck"></i>
+          <h1>Fast Shipping</h1>
+          <p>
+            We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+
+        <div class="feature3">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          <h1>
+            Quality Assurance</h1>
+          <p>
+            For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
       </div>
       <div id="how-it-works">
-        
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="Roman Carnival Overture Op. 9 for Five Trombones"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <div id="pricing">
         <!-- pricing plans -->
+        <img src="" alt="" />
+        <h1></h1>
+        <p></p>
       </div>
       <!-- video -->
-      <video id="video" src="https://youtu.be/y8Yv4pnO7qc"></video>
     </div>
     <footer>
       <!-- Privacy Terms Contact -->
