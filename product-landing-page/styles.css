@@ -1,7 +1,10 @@
 #header {
 display: flex;
-position: sticky;
+position: fixed;
 }
+
+
+
  @media screen and (max-width:600px) {
     #header{
         flex-direction: column ;
